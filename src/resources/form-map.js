@@ -25,14 +25,14 @@ export const main_sections = {
     "Containers": {
         name: "Containers",
         isValid: false,
-        pane: 11,
+        pane: 4,
         isSelected: true,
         isMaterial: false,
     },
     "Site": {
         name: "Site",
         isValid: false,
-        pane: 12,
+        pane: 5,
         isSelected: true,
         isMaterial: false,
         inputs: {}
