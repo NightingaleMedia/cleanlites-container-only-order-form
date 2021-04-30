@@ -1,0 +1,426 @@
+/* @fortawesome/free-solid-svg-icons @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap'); */
+
+#rendered h1 {
+  font-weight: 600;
+  font-family: "Nunito";
+  font-size: 1.25em !important;
+  font-weight: 800;
+  font-family: "Josefin Sans";
+  margin-bottom: 0 !important;
+}
+
+#rendered h2 {
+  font-size: 2.5em !important;
+  font-family: "Bebas Neue";
+  margin-bottom: 10px;
+}
+
+#rendered h3 {
+  font-weight: 300;
+  font-family: "Bebas Neue";
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.4rem;
+}
+
+#rendered h3.confirm {
+  font-size: 1.5em !important;
+  color: #181818;
+}
+
+#rendered h2 {
+  font-size: 2rem;
+}
+
+#rendered section {
+  /* padding: 1rem; */
+  width: 100%;
+}
+
+#rendered input[type="radio"] {
+  width: 30px !important;
+  padding: 10px !important;
+  margin-left: 2rem;
+}
+
+#rendered {
+  padding: 3rem;
+  background-color: #303030;
+  margin-bottom: 100px;
+  min-height: 100vh;
+}
+
+#rendered input[type="text"] {
+  background-color: #ebebeb;
+  font-size: 1.15rem;
+  font-family: sans-serif;
+  border: none;
+  margin: 2px !important;
+}
+
+#rendered input:hover {
+  background-color: aliceblue;
+}
+
+#rendered select {
+  width: inherit;
+  margin: 3px auto !important;
+  height: 30px;
+  line-height: 0em !important;
+}
+
+.order-type--label-wrap {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.order-type--label {
+  display: flex;
+  align-items: center;
+  font-size: 1.75rem;
+}
+
+.order-type--label input {
+  margin-left: 1rem;
+}
+
+p.radio-detail {
+  font-size: 12px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  font-family: Avenir;
+}
+
+#rendered .alert {
+  width: 100%;
+  background-color: rgb(249, 101, 101);
+  color: white;
+}
+
+#rendered .alert > span {
+  font-weight: 800;
+  color: rgb(94, 1, 1);
+}
+
+#rendered .logo-holder {
+  background-image: url("../../logo.png");
+  background-attachment: local;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 1.5rem;
+  background-position: top;
+  min-height: 100px;
+  max-width: 300px;
+}
+
+#rendered .radio {
+  margin-left: 0.35rem;
+}
+
+#rendered .form--header {
+  text-align: center;
+  margin-top: 0.75rem;
+  line-height: 0.5rem;
+}
+
+@media only screen and (max-width: 767px) {
+  #rendered main {
+    padding: 0 !important;
+  }
+  #rendered .main-form {
+    padding: 0 !important;
+  }
+  #rendered section {
+    max-width: 100%;
+    padding: 1rem;
+  }
+  #rendered section.section--material {
+    min-height: 500px;
+    display: grid;
+    /* column-gap: 20px; */
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: "material-section--title material-section--title" "material--lamps material--batteries" "material--ewaste material--batteries" "material--hazardous material--ballast" "material--hazardous material--specialty";
+  }
+  #rendered .logo-holder {
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px !important;
+  }
+  #rendered .container--content > div {
+    margin-top: 0.25em !important;
+    padding: 0em !important;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #rendered section.section--material label {
+    font-size: 0.85em !important;
+  }
+}
+
+#rendered .section--title {
+  width: 100%;
+  height: inherit;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  letter-spacing: 2px;
+  background-color: black;
+}
+
+#rendered .section--contact input,
+#rendered .section--generator input {
+  width: 100%;
+}
+
+#rendered .city-state {
+  display: grid;
+  column-gap: 5px;
+  grid-template-columns: 55% 20% 23%;
+}
+
+#rendered .pickup-delivery {
+  width: 60%;
+  font-size: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#rendered .pickup-delivery > input {
+  margin-top: 0.4em !important;
+}
+
+#rendered .pickup-delivery > label {
+  margin-right: 0.55rem;
+}
+
+#rendered .main-form {
+  max-width: 960px !important;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  /* border: 1px solid black; */
+  padding: 2rem;
+}
+
+#rendered .container--content input {
+  height: 35px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+#rendered .container--content label {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#rendered .container--content > div {
+  /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+  line-height: 1rem;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-auto-rows: 45px;
+  padding: 1rem;
+}
+
+#rendered .section--material {
+  background-color: #eeeeee;
+  width: 100%;
+  min-height: 600px;
+  display: grid;
+  /* column-gap: 20px; */
+  grid-template-columns: repeat(3, minmax(80px, 1fr));
+  grid-template-rows: 40px 2fr 2fr 2fr 1.5fr;
+  grid-template-areas: "material-section--title material-section--title material-section--title" "material--lamps material--ballast material--batteries" "material--lamps material--hazardous material--batteries" "material--ewaste material--hazardous material--batteries" "material--ewaste material--specialty material--batteries";
+}
+
+#rendered section.section--material input {
+  margin-top: 4px;
+  height: 25px;
+  border: none;
+  background-color: rgb(228, 228, 228);
+  border-bottom: 1px solid black;
+}
+
+#rendered section.section--material label {
+  height: 25px;
+  font-size: 1rem !important;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-top: 4px;
+  margin-left: 1rem;
+  margin-bottom: 2px;
+}
+
+#rendered .material-section--title {
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  grid-area: material-section--title;
+}
+
+#rendered .material--title {
+  grid-column: 1/-1;
+
+  padding-top: 6px;
+  padding-left: 1rem;
+  background-color: rgb(70, 70, 70);
+  font-family: Futura;
+  /* margin-bottom: 0.5rem; */
+  /* margin-top: 0.5rem; */
+}
+
+#rendered .material--title h2 {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 400;
+}
+
+#rendered .material--ballast {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-auto-rows: min-content;
+  grid-area: material--ballast;
+}
+
+#rendered .material--haz {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-auto-rows: min-content;
+  grid-area: material--hazardous;
+}
+
+#rendered .material--lamps {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  grid-auto-rows: min-content;
+  grid-area: material--lamps;
+}
+
+#rendered .material--eWaste {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-auto-rows: min-content;
+  grid-area: material--ewaste;
+}
+
+#rendered .material--specialty {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-auto-rows: min-content;
+  grid-area: material--specialty;
+}
+
+#rendered .material--batteries {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-auto-rows: min-content;
+  grid-area: material--batteries;
+}
+
+#rendered .site-info--checks {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+#rendered .section--containers {
+}
+
+#rendered .section--site-info textarea {
+  width: 100%;
+}
+
+#rendered .site-info--row {
+  margin-top: 1rem;
+}
+
+.rendered-section__submit {
+  border-top: 1px dotted grey;
+  position: fixed;
+  bottom: 0%;
+  z-index: 100;
+  background-color: rgb(245, 245, 245);
+  height: 100px;
+  width: 100%;
+  display: flex;
+  margin: auto;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.rendered-section__submit > button#submit-form {
+  border: none;
+  min-width: 150px;
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: var(--cri-green);
+  background-color: rgb(80, 208, 0);
+  color: white;
+  font-size: 1.5rem;
+}
+
+.rendered-section__submit > button#go-back {
+  border: none;
+  margin: 1rem;
+  min-width: 150px;
+  padding: 0.5rem;
+  background-color: var(--cri-blue2);
+  color: white;
+  font-size: 1.5rem;
+}
+
+/*-------------------------------------------------
+                  Loading
+  --------------------------------------------------*/
+
+#rendered .loading__container {
+  margin-top: 2rem;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#rendered .loading--holder {
+  position: relative;
+  border-radius: 50px;
+  width: 80%;
+  height: 16px;
+  background-color: grey;
+}
+
+#rendered .loading--progress {
+  position: absolute;
+  border-radius: 50px;
+  transition: all 0.2s ease-in;
+  height: 16px;
+  background-color: rgb(23, 218, 81);
+  animation: loading 0.8s infinite cubic-bezier(0.68, -0.55, 0.265, 1.25);
+}
+
+@keyframes loading {
+  0% {
+    width: 0%;
+    background-color: rgb(141, 238, 170);
+  }
+  100% {
+    width: 100%;
+  }
+}
